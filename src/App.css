@@ -1,0 +1,67 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* App.css */
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+  color: #07a2ff;
+}
+
+/* Hover effect for project links */
+.project a:hover {
+  color: #07a2ff; /* Yellow */
+}
+
+/* Additional hover effect (e.g., background color change) for projects */
+.project:hover {
+  background-color: #f8f9fa; /* Light grey */
+}
+
+/* App.css */
+
+.profile-photo {
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
